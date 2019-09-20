@@ -19,44 +19,71 @@
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
     <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/login-css.css">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/nav.css">
     
   </head>
-  <header class="main-header">
-    <div class="container">
-      <h1 class="mh-logo">
-        <img src="images/logo.png" width="170" height="95" alt="Cregitech">
-      </h1>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About us</a>
-          </li>
-          <li>
-            <a href="#">What We do</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">Contact Us</a>
-          </li>
-        </ul>
-      </nav>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
     </div>
-  </header>
+  
+    <header class="site-navbar py-4 bg-white" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-11 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"><img src="images/logo.png"></img></a></h1>
+          </div>
+          <div class="col-sm-8 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active has-children">
+                  <a href="about.html">About Us</a>
+                  <ul class="dropdown">
+                    <li><a href="https://developers.cregitech.com/community.html">Community</a></li>
+                    <li><a href="vision.html">Our Mission and Vision</a></li>
+                    <li><a href="partnership.html">Partner with Us</a></li>
+                    <li><a href="hire.html">Hire Us</a></li>
+                  </ul>
+                </li>
+                <li class="active has-children">
+                  <a href="services.html">What we do</a>
+                  <ul class="dropdown">
+                    <li><a href="web-apps.html">Web Applications</a></li>
+                    <li><a href="graphics.html">Graphics Design</a></li>
+                    <li><a href="data-analysis.html">Data Analysis</a></li>
+                    <li><a href="mobile-apps.html">Mobile Applications</a></li>
+                    <li><a href="https://seo.cregitech.com">SEO</a></li>
+                  </ul>
+                </li>
+                <li class="active"><a href="blog.html">Blog</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
           </div>
 
         </div>
       </div>
       
     </header>
+  
 
     <Body>
         <h1 class="login-welcome">Welcome Back to Cregitech</h1><br><br>
