@@ -3,7 +3,13 @@ body {
   line-height: 1.7;
   color: #231d1d;
   font-weight: 500;
-  font-size: 1.2rem; }
+  font-size: 1.5rem; }
+  
+body2 {
+  line-height: 1.7;
+  color: #231d1d;
+  font-weight: 500;
+  font-size: 1.5rem; }
 
 ::-moz-selection {
   background: #000;
@@ -29,9 +35,12 @@ h1, h2, h3, h4, h5,
 
 .text-black {
   color: #000 !important; }
+  
+.text-black2 {
+  color: #fff !important; }
 
 .bg-black {
-  background: #000 !important; }
+  background: #333 !important; }
 
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5); }
@@ -1340,7 +1349,7 @@ h1, h2, h3, h4, h5,
   margin: 0 auto !important;
   text-align: center; }
   .testimonial blockquote {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     font-style: italic; }
   .testimonial figure img {
     max-width: 100px;
@@ -1578,10 +1587,10 @@ h1, h2, h3, h4, h5,
     position: relative;
     z-index: 10; }
   .ft-feature-1 h2, .ft-feature-1 h3 {
-    font-size: 20px;
+    font-size: 32px;
     color: #fff; }
   .ft-feature-1 h3 {
-    font-size: 18px; }
+    font-size: 24px; }
     .ft-feature-1 h3 .icon {
       font-size: 30px; }
   .ft-feature-1 a {
