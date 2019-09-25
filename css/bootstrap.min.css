@@ -316,7 +316,7 @@ h2, .h2 {
   font-size: 2rem; }
 
 h3, .h3 {
-  font-size: 1.9rem; }
+  font-size: -0.5rem; }
 
 h4, .h4 {
   font-size: 1.5rem; }
@@ -481,8 +481,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: auto;
-  margin-left: -25px; }
+  margin-right: 10px;
+  margin-left: 10px; }
 
 .no-gutters {
   margin-right: 0;
