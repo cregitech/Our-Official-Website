@@ -1714,7 +1714,7 @@ body {
   line-height: 1.7;
   color: #231d1d;
   font-weight: 500;
-  font-size: 24px; }
+  font-size: 22px; }
   
 body2 {
   line-height: 1.7;
@@ -1740,7 +1740,8 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-
+}
+  
 .border-2 {
   border-width: 2px; }
 
@@ -1842,7 +1843,7 @@ h1, h2, h3, h4, h5,
   font-size: 2.5rem; }
   @media (min-width: 768px) {
     .site-section-heading {
-      font-size: 56px; } }
+      font-size: 45px; } }
   .site-section-heading:after {
     content: "";
     left: 0%;
@@ -1886,7 +1887,7 @@ h1, h2, h3, h4, h5,
   .site-footer ul li {
     margin-bottom: 10px; }
   .site-footer .footer-heading {
-    font-size: 16px;
+    font-size: 20px;
     color: #fff; }
 
 .bg-text-line {
@@ -2317,10 +2318,10 @@ h1, h2, h3, h4, h5,
     color: #fff; }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
-        font-size: 30px; } }
+        font-size: 40px; } }
   .site-blocks-cover p {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.5; }
   .site-blocks-cover .intro-text {
     font-size: 16px;
@@ -3060,7 +3061,7 @@ h1, h2, h3, h4, h5,
   margin: 0 auto !important;
   text-align: center; }
   .testimonial blockquote {
-    font-size: 32px;
+    font-size: 29px;
     font-style: italic; }
   .testimonial figure img {
     max-width: 100px;
@@ -3072,7 +3073,7 @@ h1, h2, h3, h4, h5,
 
 .text-muted {
   color: #ccc !important;
-  font-size: 12px;
+  font-size: 20px;
   text-transform: uppercase; }
 
 .how-it-work-item .number {
@@ -3097,7 +3098,7 @@ h1, h2, h3, h4, h5,
   color: white; }
 
 .person h3 {
-  font-size: 18px; }
+  font-size: 30px; }
 
 .ul-social-circle {
   list-style: none;
@@ -3294,7 +3295,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 80px; }
   .ft-feature-1 .ft-feature-1-content {
     padding: 30px;
-    margin-top: -130px;
+    margin-top: -20px;
     position: relative;
     z-index: 10; }
   .ft-feature-1 h2, .ft-feature-1 h3 {
