@@ -2,10 +2,11 @@
 
 //Taking all values
 $fname 		= $_POST['fname'];
+$lname 		= $_POST['lname'];
 $email 		= $_POST['email'];
 $subject 	= $_POST['subject'];
-$msg 		= $_POST['msg'];
-$output 	= "Name: ".$fname."\n\nSubject: ".$subject."\n\nMessage: ".$msg;
+$msg 		= $_POST['message'];
+$output 	= "Name: ".$fname.$lname."\n\nSubject: ".$subject."\n\nMessage: ".$msg;
 
 $to 		= 'info@cregitech.com';
 $headers	= 'FROM: "'.$email.'"';
