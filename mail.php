@@ -1,10 +1,16 @@
 <?php
 
 //Taking all values
+$fname 		= $_POST['fname'];
+$lname 		= $_POST['lname'];
 $email 		= $_POST['email'];
-$output 	= "I want to be informed when Cregitech relaunches. This is my email: ".$email."\n Thanks. Please contact me soon.";
+$subject 	= $_POST['subject'];
+$msg 		= $_POST['message'];
+$output 	= "Name: ".$fname.$lname."\n\nSubject: ".$subject."\n\nMessage: ".$msg;
 
-$to 		= ' cregitech@gmail.com';
+$to 		= 'info@cregitech.com';
 $headers	= 'FROM: "'.$email.'"';
 
-$send		= mail($to, $email, $output."\n\n***This message has been sent from Cregitech.com by: ", $headers);
+$send		= mail($to, $fname, $output."\n\n***This message has been sent from Cregitech.com", $headers);
+
+?>
