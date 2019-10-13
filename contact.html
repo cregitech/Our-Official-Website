@@ -97,10 +97,9 @@
         <div class="row">
           <div class="col-md-7 mb-5">
 
-            <?php 
-if (!isset($_POST["submit"])) { ?>
+     
 
-            <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post" class="p-5 bg-white">
+            <form action="mail.php" method="post" class="p-5 bg-white">
               
               <h2 class="h4 text-black mb-5">Contact Form</h2> 
 
@@ -146,27 +145,6 @@ if (!isset($_POST["submit"])) { ?>
 
   
             </form>
-            
-            <?php
-} else {
- 
- $fname 		= $_POST['fname'];
-$lname 		= $_POST['lname'];
-$email 		= $_POST['email'];
-$subject 	= $_POST['subject'];
-$msg 		= $_POST['message'];
-$output 	= "Name: ".$fname.$lname."\n\nSubject: ".$subject."\n\nMessage: ".$msg;
-
-$to 		= 'constancejco@gmail.com';
-$headers	= 'FROM: "'.$email.'"';
-if ( mail($to, $fname, $output."\n\n***This message has been sent from Cregitech.com", $headers)) {
- echo("Email successfully sent to $to_email...");
-    } else {
-      echo("Email sending failed...");
-    }
-  }
-
-?>
           </div>
           <div class="col-md-5">
             
